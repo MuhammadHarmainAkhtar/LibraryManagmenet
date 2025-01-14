@@ -10,7 +10,7 @@ const page = () => {
         Looks like you've been a little too eager. We've put a temporary pause
         on your excitement. 🚦 Chill for a bit, and try again shortly...!
       </p>
-
+    </mai
 
 
 
