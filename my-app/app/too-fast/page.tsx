@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <mai className="root-container flex min-h-screen flex-col justify-center items-center">
+    <main className="root-container flex min-h-screen flex-col justify-center items-center">
       <h1 className="font-bebas-neue text-5xl font-bold text-light-100">
         Whoa, Slow Down There, Speedy!
       </h1>
@@ -10,7 +10,8 @@ const page = () => {
         Looks like you've been a little too eager. We've put a temporary pause
         on your excitement. 🚦 Chill for a bit, and try again shortly...!
       </p>
-    </mai
+    </main>
+
 
 
 
