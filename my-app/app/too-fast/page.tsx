@@ -11,7 +11,7 @@ const page = () => {
         on your excitement. 🚦 Chill for a bit, and try again shortly...!
       </p>
     </main>
-
+  );
 
 
 
