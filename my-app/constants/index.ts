@@ -189,4 +189,120 @@ export const sampleBooks = [
     summary:
       "Morgan Housel explores the unique behaviors and mindsets that shape financial success and decision-making.",
   },
+  {
+    id: 9,
+    title: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
+    genre: "History / Anthropology",
+    rating: 4.7,
+    total_copies: 50,
+    available_copies: 25,
+    description:
+      "A groundbreaking narrative of humanity’s creation and evolution, exploring the ways in which biology and history have defined us.",
+    color: "#6d6875",
+    cover:
+      "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "A narrative exploring humanity's evolution, blending biology, history, and anthropology into a compelling story.",
+  },
+  {
+    id: 10,
+    title: "The Lean Startup",
+    author: "Eric Ries",
+    genre: "Business / Startup",
+    rating: 4.6,
+    total_copies: 45,
+    available_copies: 30,
+    description:
+      "A guide to creating a successful startup through continuous innovation and adaptive learning.",
+    color: "#f3f3f3",
+    cover:
+      "https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "An insightful guide to building sustainable startups through innovation and customer feedback.",
+  },
+  {
+    "id": 11,
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "genre": "Computer Science / Career",
+    "rating": 4.9,
+    "total_copies": 18,
+    "available_copies": 12,
+    "description": "A comprehensive guide to coding interviews, featuring 189 programming questions and solutions.",
+    "color": "#2E8B57",
+    "cover": "https://m.media-amazon.com/images/I/81ZQgWwuVzL.jpg",
+    "video": "/sample-video.mp4?updatedAt=1722593504152",
+    "summary": "A comprehensive guide to coding interviews, featuring 189 programming questions and solutions."
+  },
+  {
+    id: 12,
+    title: "Rich Dad Poor Dad",
+    author: "Robert T. Kiyosaki",
+    genre: "Finance / Self-Help",
+    rating: 4.8,
+    total_copies: 80,
+    available_copies: 70,
+    description:
+      "Lessons on wealth, personal finance, and the mindset required to achieve financial independence.",
+    color: "#420c69",
+    cover:
+      "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "A financial guide emphasizing mindset shifts and practical advice for achieving wealth.",
+  },
+  {
+    id: 13,
+    title: "The Subtle Art of Not Giving a F*ck",
+    author: "Mark Manson",
+    genre: "Self-Help / Personal Development",
+    rating: 4.6,
+    total_copies: 90,
+    available_copies: 65,
+    description:
+      "A counterintuitive approach to living a good life, focusing on accepting and embracing struggles.",
+    color: "#ff5733",
+    cover:
+      "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "A bold guide to living authentically by embracing struggles and redefining priorities.",
+  },
+  {
+    id: 14,
+    title: "1984",
+    author: "George Orwell",
+    genre: "Dystopian / Political Fiction",
+    rating: 4.8,
+    total_copies: 70,
+    available_copies: 50,
+    description:
+      "A dystopian novel depicting a totalitarian society under constant surveillance.",
+    color: "#2a2b2c",
+    cover:
+      "https://m.media-amazon.com/images/I/91SZSW8qSsL._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "A chilling portrayal of a dystopian society dominated by surveillance and authoritarianism.",
+  },
+  {
+    id: 15,
+    title: "The 7 Habits of Highly Effective People",
+    author: "Stephen R. Covey",
+    genre: "Self-Help / Leadership",
+    rating: 4.9,
+    total_copies: 100,
+    available_copies: 75,
+    description:
+      "A guide to developing habits for personal and professional success.",
+    color: "#0055a5",
+    cover:
+      "https://m.media-amazon.com/images/I/71UwSHSZRnS._AC_UF1000,1000_QL80_.jpg",
+    video: "/sample-video.mp4?updatedAt=1722593504152",
+    summary:
+      "A timeless framework for personal and professional growth through effective habits.",
+  },
 ];
