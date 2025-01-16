@@ -24,7 +24,7 @@ import { ZodType, z } from "zod";
 import Link from "next/link";
 import path from "path";
 import { FIELD_NAMES, FIELD_TYPES } from "@/constants";
-import ImageUpload from "./ImageUpload";
+import FileUpload from "./FileUpload";
 import { toast } from "@/hooks/use-toast";
 import { useRouter } from "next/navigation";
 interface Props<T extends FieldValues> {
@@ -58,13 +58,12 @@ const AuthForm = <T extends FieldValues>({
           : "You have successfully signed up.",
       });
       router.push("/");
-    }
-    else{
+    } else {
       toast({
         title: `Error ${isSignIn ? "signing in" : "signing up"}`,
         description: result.error ?? "An error occurred.",
-        variant: "destructive"
-      })
+        variant: "destructive",
+      });
     }
   };
 
@@ -95,7 +94,15 @@ const AuthForm = <T extends FieldValues>({
                   </FormLabel>
                   <FormControl>
                     {field.name === "universityCard" ? (
-                      <ImageUpload onFileChange={field.onChange} />
+                      <FileUpload
+                        type="image"
+                        accept="image/*"
+                        folder="ids"
+                        variant="dark"
+                        value={field.value}
+                        placeholder="Upload your ID"
+                        onFileChange={field.onChange}
+                      />
                     ) : (
                       <Input
                         required

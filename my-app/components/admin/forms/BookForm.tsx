@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 import { bookSchema } from "@/lib/validations";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import FileUpload from "@/components/ImageUpload";
+import FileUpload from "@/components/FileUpload";
 import ColorPicker from "@/components/admin/ColorPicker";
 import { createBook } from "@/lib/admin/actions/book";
 import { toast } from "@/hooks/use-toast";
@@ -183,7 +183,7 @@ const BookForm = ({ type, ...book }: Props) => {
                 Book Image
               </FormLabel>
               <FormControl>
-                {/* <FileUpload
+                <FileUpload
                   type="image"
                   accept="image/*"
                   placeholder="Upload a book cover"
@@ -191,7 +191,7 @@ const BookForm = ({ type, ...book }: Props) => {
                   variant="light"
                   onFileChange={field.onChange}
                   value={field.value}
-                /> */}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -246,7 +246,7 @@ const BookForm = ({ type, ...book }: Props) => {
                 Book Trailer
               </FormLabel>
               <FormControl>
-                {/* <FileUpload
+                <FileUpload
                   type="video"
                   accept="video/*"
                   placeholder="Upload a book trailer"
@@ -254,7 +254,7 @@ const BookForm = ({ type, ...book }: Props) => {
                   variant="light"
                   onFileChange={field.onChange}
                   value={field.value}
-                /> */}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
